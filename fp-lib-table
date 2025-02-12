@@ -3,4 +3,5 @@
   (lib (name "Contactor")(type "KiCad")(uri "${KIPRJMOD}/Lib/Contactor.pretty")(options "")(descr ""))
   (lib (name "Sensor_My")(type "KiCad")(uri "${KIPRJMOD}/Lib/Sensor_My.pretty")(options "")(descr ""))
   (lib (name "Resistor_My")(type "KiCad")(uri "${KIPRJMOD}/Lib/Resistor_My.pretty")(options "")(descr ""))
+  (lib (name "Molex_My")(type "KiCad")(uri "${KIPRJMOD}/Lib/Molex_My.pretty")(options "")(descr ""))
 )

@@ -5,6 +5,145 @@
 	(uuid "7b040528-7065-4d6b-8722-075d9f593d01")
 	(paper "A0")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Contactor:KILOVAC_EV200"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -704,9 +843,2131 @@
 			)
 		)
 	)
+	(junction
+		(at 679.45 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0db577c6-451c-4588-a7ca-1f22fb0c82f5")
+	)
+	(junction
+		(at 688.34 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "128e60d4-9f84-4423-bc5b-8fa80f0f7c7d")
+	)
+	(junction
+		(at 688.34 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "194d574e-fa3c-4edd-a9d5-a5601d3e7933")
+	)
+	(junction
+		(at 626.11 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f615ba-fec9-409f-8eae-0a80b155e2e9")
+	)
+	(junction
+		(at 626.11 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22095404-9884-4807-960f-d9d19f70da13")
+	)
+	(junction
+		(at 617.22 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a0af557-b5d3-4af7-b47d-493220f0a1be")
+	)
+	(junction
+		(at 706.12 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bd08d21-c4fc-44e7-bd9f-f6f15dc4d5a7")
+	)
+	(junction
+		(at 599.44 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c101b70-d8f2-4945-9d3a-adf49d154da2")
+	)
+	(junction
+		(at 617.22 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c08837e-3023-433f-b380-1fcc9c83f9ce")
+	)
+	(junction
+		(at 608.33 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c2d4a92-da30-475f-a82f-a98a5b4cd6c0")
+	)
+	(junction
+		(at 688.34 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3faca425-32de-40ed-8a95-bf86f75c7812")
+	)
+	(junction
+		(at 617.22 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40e1b4ca-7f34-4f70-ab4f-175042ed563a")
+	)
+	(junction
+		(at 635 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44a49fdd-6d41-482f-9080-ad644cee978b")
+	)
+	(junction
+		(at 706.12 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46701613-200e-4f8c-897a-cd8eb8d46595")
+	)
+	(junction
+		(at 661.67 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b1d8f82-b71e-4979-a871-a9dbafef20cb")
+	)
+	(junction
+		(at 715.01 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cdd7469-c30e-45bd-81c3-aaa5822c9469")
+	)
+	(junction
+		(at 608.33 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fd536d4-e48b-4b27-96b1-52514731bea0")
+	)
+	(junction
+		(at 697.23 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "515b65e4-e068-433e-b3ac-b247a15e15df")
+	)
+	(junction
+		(at 697.23 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5250f54d-4df4-48cf-832d-2545e6280ecb")
+	)
+	(junction
+		(at 697.23 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "545d2623-9d88-40d7-b954-91e500e7f44f")
+	)
+	(junction
+		(at 590.55 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5502f26b-f585-4db2-adde-58c9bd4aed9a")
+	)
+	(junction
+		(at 706.12 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ed5a8d3-04a3-45bb-be03-4927473e9eff")
+	)
+	(junction
+		(at 679.45 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674d8a55-4334-4577-88b1-68cbfdfed0d4")
+	)
+	(junction
+		(at 679.45 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a5f6825-8fa6-419b-9abc-0e05e55801f1")
+	)
+	(junction
+		(at 652.78 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f80c3ff-d484-47f7-9e85-37b2f6dd7924")
+	)
+	(junction
+		(at 567.69 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70253017-ccff-4d8a-a88f-6f3af7020b76")
+	)
+	(junction
+		(at 670.56 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cd2aa10-678f-4941-9f96-69ba1f2bb711")
+	)
+	(junction
+		(at 635 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ec46733-3682-4f22-96eb-69e65beecf31")
+	)
+	(junction
+		(at 626.11 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8af60ce1-00aa-4261-8831-6f5576ccee63")
+	)
+	(junction
+		(at 599.44 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f8978eb-ad24-43c3-b7c5-447687591b3c")
+	)
+	(junction
+		(at 670.56 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91a9cd8b-44d6-4f3a-b44c-3b9fc8745d0b")
+	)
+	(junction
+		(at 697.23 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9371ea3c-e83d-42eb-9adb-03b528da337a")
+	)
+	(junction
+		(at 643.89 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "937c97c5-06f9-400b-a3f3-3ae9395488ea")
+	)
+	(junction
+		(at 643.89 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "972d4498-fc7b-42e9-bd52-4abf6b77580d")
+	)
+	(junction
+		(at 635 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "995ba20c-d8b3-43ff-8b88-9e780484e2f2")
+	)
+	(junction
+		(at 652.78 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99b9c555-3c08-4740-bf30-373e7894ef32")
+	)
+	(junction
+		(at 590.55 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a00947e8-3df9-4802-9661-918ccd817e22")
+	)
+	(junction
+		(at 661.67 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aee700ca-4e4a-4918-acee-179626722582")
+	)
+	(junction
+		(at 652.78 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af8746cc-324d-4e1c-b031-ed49db04fd84")
+	)
+	(junction
+		(at 608.33 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1bc677f-1a67-4311-b2d4-d357375fbf76")
+	)
+	(junction
+		(at 661.67 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1d65f3d-4d2f-4da9-a48b-9d0acd20d283")
+	)
+	(junction
+		(at 599.44 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2cbdca8-396b-4571-b075-cfae8674660a")
+	)
+	(junction
+		(at 661.67 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfc5e26a-19c5-4953-972e-eaef2bced16d")
+	)
+	(junction
+		(at 608.33 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c55ea8a3-a99a-4f14-abe7-241062fd4014")
+	)
+	(junction
+		(at 635 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7736153-6158-4f26-be4f-43b131a0243a")
+	)
+	(junction
+		(at 670.56 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca64fb44-009a-4486-8b9d-3b174dc937af")
+	)
+	(junction
+		(at 567.69 306.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd81f68b-4810-40a0-b942-eef84bae5398")
+	)
+	(junction
+		(at 567.69 360.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d16647bc-1113-4b4d-ae62-20fea643cf45")
+	)
+	(junction
+		(at 688.34 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4272124-6302-4f21-9940-852db108efe7")
+	)
+	(junction
+		(at 706.12 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5038810-5377-425f-bd2a-83c4bcc4de10")
+	)
+	(junction
+		(at 679.45 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e05116f4-67bf-4b59-835f-0f6d41c2fe35")
+	)
+	(junction
+		(at 715.01 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0c6fbe2-4fbd-4c09-bc56-7fb152b3f0c2")
+	)
+	(junction
+		(at 626.11 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8add4e0-5474-414e-bf6f-7d6543bfd308")
+	)
+	(junction
+		(at 652.78 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea530c94-a90d-4149-9f9a-ff9426740674")
+	)
+	(junction
+		(at 643.89 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecfc4766-c357-42a0-bd8f-2e45ca10bb5a")
+	)
+	(junction
+		(at 617.22 363.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0730581-c6a8-4dc0-8441-3cb1da91ea6c")
+	)
+	(junction
+		(at 599.44 373.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8e37d78-098a-496c-9e0b-5d6472e47342")
+	)
+	(junction
+		(at 643.89 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa2d7578-b76e-439f-9e18-f9068d7d14e3")
+	)
+	(junction
+		(at 670.56 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc429265-24ef-4b6e-9ab8-a7654efdf993")
+	)
+	(wire
+		(pts
+			(xy 661.67 264.16) (xy 652.78 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c0d0ee-0e54-4ab4-8e95-9216f904c274")
+	)
+	(wire
+		(pts
+			(xy 706.12 372.11) (xy 706.12 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3a8441-c315-4c6b-84ce-d54015c2fa94")
+	)
+	(wire
+		(pts
+			(xy 661.67 363.22) (xy 661.67 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3fc31a-945c-4657-a7be-87f5ed6d45e8")
+	)
+	(wire
+		(pts
+			(xy 599.44 363.22) (xy 608.33 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8e9f77-3587-4bf7-9d39-57b9fda2543e")
+	)
+	(wire
+		(pts
+			(xy 688.34 264.16) (xy 679.45 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae4f55d-39b9-4b74-9ab0-0b35f1f0eb06")
+	)
+	(wire
+		(pts
+			(xy 570.865 372.745) (xy 570.865 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b910249-c33f-48b7-a998-c27d39d0ecf2")
+	)
+	(wire
+		(pts
+			(xy 579.755 427.355) (xy 586.105 427.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6ffca7-82e8-4b21-b77c-89c9ae2abe10")
+	)
+	(wire
+		(pts
+			(xy 577.215 392.43) (xy 570.865 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f22858b-2e5a-4c97-9a18-cead0eb4ef6e")
+	)
+	(wire
+		(pts
+			(xy 652.78 363.22) (xy 652.78 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa4aba4-014a-4a64-9e85-9580fe69a38a")
+	)
+	(wire
+		(pts
+			(xy 697.23 254) (xy 706.12 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125ebf22-d51f-433f-a918-d1314d0b3949")
+	)
+	(wire
+		(pts
+			(xy 567.69 360.68) (xy 570.865 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1400128f-e0f3-4414-944b-f6e4caeccbb8")
+	)
+	(wire
+		(pts
+			(xy 688.34 254) (xy 697.23 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166abb4f-e98d-425b-a11d-11412c80d9cb")
+	)
+	(wire
+		(pts
+			(xy 679.45 363.22) (xy 679.45 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176eee85-584d-4c77-8db1-16f3b3b176df")
+	)
+	(wire
+		(pts
+			(xy 570.865 283.21) (xy 570.865 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1972fa4b-cae9-44fa-84d2-ccb3b6640ed8")
+	)
+	(wire
+		(pts
+			(xy 715.01 363.22) (xy 715.01 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19dc4314-e033-4b06-b4bf-7c4708f73fd7")
+	)
+	(wire
+		(pts
+			(xy 608.33 373.38) (xy 599.44 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2308b50e-5143-4190-837b-0dad9c6b34c9")
+	)
+	(wire
+		(pts
+			(xy 561.34 226.695) (xy 561.34 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243b4219-e688-4558-b886-9ab2c2fe5612")
+	)
+	(wire
+		(pts
+			(xy 577.215 226.695) (xy 570.865 226.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24dc0ac2-5de8-44af-abd3-ee86ed67e805")
+	)
+	(wire
+		(pts
+			(xy 590.55 363.22) (xy 599.44 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252d951a-85b5-4203-aac7-8076f805b5d5")
+	)
+	(wire
+		(pts
+			(xy 652.78 363.22) (xy 661.67 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e1ae3f-92ac-4e48-9396-37dd06ad80c9")
+	)
+	(wire
+		(pts
+			(xy 579.755 263.525) (xy 586.105 263.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27fee8e2-31bc-418c-8248-fff57d709130")
+	)
+	(wire
+		(pts
+			(xy 577.215 337.82) (xy 570.865 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1b1e4d-b5d0-4daa-bfee-cf2a670a1b61")
+	)
+	(wire
+		(pts
+			(xy 570.865 306.07) (xy 567.69 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca81baf-57c3-43f3-89aa-7260dba9c0ff")
+	)
+	(wire
+		(pts
+			(xy 661.67 262.89) (xy 661.67 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3cf55f-8e0d-4f54-952f-ce164abad971")
+	)
+	(wire
+		(pts
+			(xy 590.55 363.22) (xy 590.55 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4b1451-5506-43ce-b352-51b126d2df33")
+	)
+	(wire
+		(pts
+			(xy 688.34 262.89) (xy 688.34 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f780f9b-8b3d-4cdf-8492-13954669802d")
+	)
+	(wire
+		(pts
+			(xy 697.23 262.89) (xy 697.23 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fcbb4db-cf0d-4f66-8dfa-82ce797c06ed")
+	)
+	(wire
+		(pts
+			(xy 599.44 254) (xy 608.33 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31efb707-d3fa-410f-958e-c45c56c151ac")
+	)
+	(wire
+		(pts
+			(xy 617.22 262.89) (xy 617.22 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3247e200-16de-46ac-a5eb-3f74cfbce26d")
+	)
+	(wire
+		(pts
+			(xy 608.33 372.11) (xy 608.33 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339bccfa-8b03-46e6-a7c9-139712628671")
+	)
+	(wire
+		(pts
+			(xy 688.34 363.22) (xy 688.34 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353451c3-f4b3-43b0-898e-3a7b56214632")
+	)
+	(wire
+		(pts
+			(xy 586.105 263.525) (xy 586.105 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3782967a-a599-4261-8229-026f18079435")
+	)
+	(wire
+		(pts
+			(xy 567.69 415.29) (xy 570.865 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c00d98-2381-4196-b467-e95bd57f560e")
+	)
+	(wire
+		(pts
+			(xy 643.89 264.16) (xy 635 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a32150e-3284-4ac0-9d9e-125d4ec8d7c2")
+	)
+	(wire
+		(pts
+			(xy 643.89 254) (xy 643.89 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad29148-1d42-4e09-a227-d60370e62394")
+	)
+	(wire
+		(pts
+			(xy 626.11 363.22) (xy 626.11 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0336c0-241b-48f3-8e76-e2fc7645b217")
+	)
+	(wire
+		(pts
+			(xy 706.12 254) (xy 715.01 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdbd9a9-41c8-4914-adfe-f074c8f58e0f")
+	)
+	(wire
+		(pts
+			(xy 617.22 363.22) (xy 626.11 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0c93fa-da8c-4c45-9e14-5c198daa8009")
+	)
+	(wire
+		(pts
+			(xy 697.23 372.11) (xy 697.23 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f75b716-570b-4da4-b0a9-a0dca53f61e2")
+	)
+	(wire
+		(pts
+			(xy 652.78 254) (xy 661.67 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421b7573-64e9-4f85-afe5-a71f71b915bc")
+	)
+	(wire
+		(pts
+			(xy 570.865 392.43) (xy 570.865 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bcf2b5-fd40-4172-bba6-4f5b1058f4e9")
+	)
+	(wire
+		(pts
+			(xy 590.55 254) (xy 590.55 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4566909f-94b4-4ca7-aee2-2c604450dc62")
+	)
+	(wire
+		(pts
+			(xy 715.01 373.38) (xy 706.12 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46602e65-cb44-43c8-9994-ff730c20a8a2")
+	)
+	(wire
+		(pts
+			(xy 661.67 254) (xy 661.67 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475f64e7-1ce1-458d-bbad-5bf7301a8689")
+	)
+	(wire
+		(pts
+			(xy 652.78 262.89) (xy 652.78 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fac0c9-4f4d-4846-a0e2-a2e97686e173")
+	)
+	(wire
+		(pts
+			(xy 586.105 363.22) (xy 590.55 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b332632-85e8-4445-a167-c9eb61334113")
+	)
+	(wire
+		(pts
+			(xy 586.105 372.745) (xy 586.105 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6b451f-e53e-46de-9031-bf45520082eb")
+	)
+	(wire
+		(pts
+			(xy 599.44 372.11) (xy 599.44 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e295ee8-ba62-4a5d-89a1-54f7b6802d28")
+	)
+	(wire
+		(pts
+			(xy 706.12 373.38) (xy 697.23 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5059cc68-f3dd-4fd0-8c4f-339ad8daf0ec")
+	)
+	(wire
+		(pts
+			(xy 579.755 372.745) (xy 586.105 372.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566baa80-2dff-47ac-8b0b-ea89a15f93ad")
+	)
+	(wire
+		(pts
+			(xy 626.11 254) (xy 626.11 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e5a877-1161-4211-9e47-bdd6e33aaf04")
+	)
+	(wire
+		(pts
+			(xy 643.89 254) (xy 652.78 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59731558-d77e-45ed-ab6c-5658931ddd28")
+	)
+	(wire
+		(pts
+			(xy 590.55 264.16) (xy 590.55 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1394d6-a412-494a-9df9-0dadea6aed72")
+	)
+	(wire
+		(pts
+			(xy 635 363.22) (xy 635 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebd6adf-5e3c-4104-8dfe-28362df62c8d")
+	)
+	(wire
+		(pts
+			(xy 635 254) (xy 635 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed409c9-361e-41dd-ac2a-274660433b6e")
+	)
+	(wire
+		(pts
+			(xy 661.67 363.22) (xy 670.56 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dad583-e2d5-4d62-8dbf-8aedfe80ea45")
+	)
+	(wire
+		(pts
+			(xy 567.69 251.46) (xy 567.69 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f599e3-6b0d-4711-99c3-476a4447942e")
+	)
+	(wire
+		(pts
+			(xy 635 264.16) (xy 626.11 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670fdcfc-988f-491b-8623-c98e4618b712")
+	)
+	(wire
+		(pts
+			(xy 661.67 254) (xy 670.56 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67544845-f017-49d5-afbe-26821b8d40bb")
+	)
+	(wire
+		(pts
+			(xy 670.56 254) (xy 679.45 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b56e30-628a-4343-b337-c6062e5e10e1")
+	)
+	(wire
+		(pts
+			(xy 715.01 372.11) (xy 715.01 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68468c1b-876f-4f3e-bf85-5a29167ea3d3")
+	)
+	(wire
+		(pts
+			(xy 608.33 363.22) (xy 608.33 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695f0183-5ec9-4e5c-9427-e91970b565e1")
+	)
+	(wire
+		(pts
+			(xy 697.23 254) (xy 697.23 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a8e4f1-925e-4eb6-9be0-d0b05deb8fda")
+	)
+	(wire
+		(pts
+			(xy 608.33 254) (xy 608.33 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b234bce-6df0-430d-a959-b1482649de8d")
+	)
+	(wire
+		(pts
+			(xy 586.105 337.82) (xy 586.105 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c80812b-3f56-45c8-b772-30bb2396b1e7")
+	)
+	(wire
+		(pts
+			(xy 706.12 363.22) (xy 706.12 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4a4bd9-9e38-4b17-85da-3ea9120e7d8d")
+	)
+	(wire
+		(pts
+			(xy 652.78 372.11) (xy 652.78 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9fc6f7-de50-4a3e-acef-817b0bb6e411")
+	)
+	(wire
+		(pts
+			(xy 579.755 392.43) (xy 586.105 392.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7020af15-962f-4cfb-8fb6-b3dae8a33bd2")
+	)
+	(wire
+		(pts
+			(xy 670.56 372.11) (xy 670.56 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ff2c4e-e352-4b19-b78a-6fdf891503ff")
+	)
+	(wire
+		(pts
+			(xy 599.44 254) (xy 599.44 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7115994d-e7c5-4274-b52f-9934c48cbd84")
+	)
+	(wire
+		(pts
+			(xy 652.78 264.16) (xy 643.89 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714ec4ad-6913-4587-aa5d-94106a957b73")
+	)
+	(wire
+		(pts
+			(xy 617.22 363.22) (xy 617.22 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a81977-ce9a-457a-87b6-3eef7da692e5")
+	)
+	(wire
+		(pts
+			(xy 608.33 262.89) (xy 608.33 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74291645-480b-40fe-aa67-5b31b6b5152e")
+	)
+	(wire
+		(pts
+			(xy 586.105 254) (xy 590.55 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cdb0e9-d24d-44d5-99be-4a327fb48855")
+	)
+	(wire
+		(pts
+			(xy 554.99 226.695) (xy 561.34 226.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c5f8a0-3f9f-44bd-9823-338ad91c08a9")
+	)
+	(wire
+		(pts
+			(xy 643.89 363.22) (xy 652.78 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75da5896-3b49-4dbb-a5db-3d80231a1184")
+	)
+	(wire
+		(pts
+			(xy 688.34 254) (xy 688.34 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779be3b1-0971-43f5-a5d0-55b5f5730f72")
+	)
+	(wire
+		(pts
+			(xy 643.89 363.22) (xy 643.89 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787e9812-d400-4e77-9261-84ebdaf018d7")
+	)
+	(wire
+		(pts
+			(xy 599.44 363.22) (xy 599.44 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792277c2-fe6d-46a5-bf14-e81a9a66b0c2")
+	)
+	(wire
+		(pts
+			(xy 567.69 360.68) (xy 567.69 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab2b206-2987-498d-aa8f-1feff567b9db")
+	)
+	(wire
+		(pts
+			(xy 579.755 318.135) (xy 586.105 318.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7baefd9b-7544-4106-8928-80de2e9f9453")
+	)
+	(wire
+		(pts
+			(xy 652.78 373.38) (xy 643.89 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc5798d-ddde-425b-9b4a-e43997552c0a")
+	)
+	(wire
+		(pts
+			(xy 635 254) (xy 643.89 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd34e3e-e999-4fcc-8d43-e6b80642f8b1")
+	)
+	(wire
+		(pts
+			(xy 626.11 373.38) (xy 617.22 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0cd2ac-71f8-4f19-94af-4ec8b38f96a3")
+	)
+	(wire
+		(pts
+			(xy 635 372.11) (xy 635 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c37fd1c-7a23-424f-806d-7f0cad08b66e")
+	)
+	(wire
+		(pts
+			(xy 679.45 254) (xy 679.45 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebcc91b-361b-4e79-b81c-93f8b9f2afcf")
+	)
+	(wire
+		(pts
+			(xy 715.01 264.16) (xy 718.185 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828353f7-e49d-4494-9405-f7ddfcd9a079")
+	)
+	(wire
+		(pts
+			(xy 679.45 373.38) (xy 670.56 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84187a00-f6da-436d-9555-1a4b1bd05dab")
+	)
+	(wire
+		(pts
+			(xy 570.865 263.525) (xy 570.865 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8907e574-4437-4e10-b299-f33ee91ecc79")
+	)
+	(wire
+		(pts
+			(xy 635 373.38) (xy 626.11 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ba6d33-1fd7-49c9-bdb8-be60d661c71e")
+	)
+	(wire
+		(pts
+			(xy 688.34 373.38) (xy 679.45 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd0d5cf-c5fd-42c4-ae48-365eab26353f")
+	)
+	(wire
+		(pts
+			(xy 643.89 373.38) (xy 635 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4efbfa-b347-4256-84ae-6595853b8570")
+	)
+	(wire
+		(pts
+			(xy 626.11 372.11) (xy 626.11 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2eb0f7-1a46-400f-b0d7-508efcc8d157")
+	)
+	(wire
+		(pts
+			(xy 599.44 264.16) (xy 590.55 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d252b5-5712-4705-a06c-a7de645d8369")
+	)
+	(wire
+		(pts
+			(xy 626.11 254) (xy 635 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954793b3-2f51-4ccc-a571-2d5794c4954a")
+	)
+	(wire
+		(pts
+			(xy 579.755 226.695) (xy 586.105 226.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95758ad7-24bc-4d6e-9a9a-298ccbb4f02f")
+	)
+	(wire
+		(pts
+			(xy 599.44 373.38) (xy 590.55 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b65a5e-8578-4827-a675-473ed1269e07")
+	)
+	(wire
+		(pts
+			(xy 679.45 372.11) (xy 679.45 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e5f57a-0aaa-4d77-91a4-0a317f329e0e")
+	)
+	(wire
+		(pts
+			(xy 697.23 363.22) (xy 697.23 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c1ced5-6f4a-406f-9330-d4ed8f0794f7")
+	)
+	(wire
+		(pts
+			(xy 670.56 254) (xy 670.56 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979ae97e-b3c2-4854-aeef-2689428d3ced")
+	)
+	(wire
+		(pts
+			(xy 643.89 262.89) (xy 643.89 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b75bf4-0322-48a2-acb6-d4acf64b05e4")
+	)
+	(wire
+		(pts
+			(xy 670.56 363.22) (xy 679.45 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9840d3df-4653-4c92-9e62-7bd5feadad2d")
+	)
+	(wire
+		(pts
+			(xy 590.55 254) (xy 599.44 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae2db02-2e25-4262-bb37-5ac62fd6e42c")
+	)
+	(wire
+		(pts
+			(xy 670.56 363.22) (xy 670.56 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c97dfed-aaaf-4e04-8cbe-1d8a55f886fe")
+	)
+	(wire
+		(pts
+			(xy 577.215 283.21) (xy 570.865 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d604d41-6f43-4750-8fae-99e2a3aa2bdf")
+	)
+	(wire
+		(pts
+			(xy 652.78 254) (xy 652.78 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02d555e-84ed-4002-a4c4-ddcd698c999a")
+	)
+	(wire
+		(pts
+			(xy 679.45 264.16) (xy 670.56 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c91296-e217-4b3b-908b-598ecebe56c4")
+	)
+	(wire
+		(pts
+			(xy 586.105 283.21) (xy 586.105 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a325d19c-cec4-4189-a386-3ccdbacadcf9")
+	)
+	(wire
+		(pts
+			(xy 617.22 254) (xy 626.11 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a631f9e8-bf6e-4f0e-8a07-8534a020cf24")
+	)
+	(wire
+		(pts
+			(xy 577.215 427.355) (xy 570.865 427.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82146d9-5dd8-49d6-8ac1-a6a5b35265b9")
+	)
+	(wire
+		(pts
+			(xy 706.12 264.16) (xy 697.23 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84486fd-ee9b-45b3-8a2a-45cf1a324b6c")
+	)
+	(wire
+		(pts
+			(xy 608.33 254) (xy 617.22 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99f6103-ac6a-407f-a985-3a857f7ca8d0")
+	)
+	(wire
+		(pts
+			(xy 688.34 363.22) (xy 697.23 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba72fc1-a377-4857-b512-37e20826bb13")
+	)
+	(wire
+		(pts
+			(xy 570.865 337.82) (xy 570.865 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade920c7-3310-44f0-9b7e-6ba0533dc92b")
+	)
+	(wire
+		(pts
+			(xy 679.45 254) (xy 688.34 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa49333-46e4-455c-9a0f-212bbb524e53")
+	)
+	(wire
+		(pts
+			(xy 635 262.89) (xy 635 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02fbc81-d2f7-42eb-a1b3-ef99fc565d6d")
+	)
+	(wire
+		(pts
+			(xy 577.215 318.135) (xy 570.865 318.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a74f63-7741-46b8-8c75-a040e1aab3cb")
+	)
+	(wire
+		(pts
+			(xy 688.34 372.11) (xy 688.34 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77f2e91-69e2-4d40-a993-77a84f3e782b")
+	)
+	(wire
+		(pts
+			(xy 706.12 254) (xy 706.12 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79daf05-a32f-4115-8c26-93a452665ba4")
+	)
+	(wire
+		(pts
+			(xy 670.56 373.38) (xy 661.67 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82d54df-f65c-4f4e-9b8a-20ddee7da5ee")
+	)
+	(wire
+		(pts
+			(xy 706.12 262.89) (xy 706.12 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91dc9d5-d404-4240-8772-a16d31b37179")
+	)
+	(wire
+		(pts
+			(xy 679.45 262.89) (xy 679.45 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92eb2d5-20be-4410-8879-1fb1d3c53609")
+	)
+	(wire
+		(pts
+			(xy 599.44 262.89) (xy 599.44 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94ef815-a2cc-48e5-8d93-f00f9cb539b2")
+	)
+	(wire
+		(pts
+			(xy 546.1 226.695) (xy 546.1 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9defe90-53d3-4ee0-a6c1-414e5a51161d")
+	)
+	(wire
+		(pts
+			(xy 670.56 264.16) (xy 661.67 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafd7d08-e8dc-425a-bc8d-937e4fa4ae76")
+	)
+	(wire
+		(pts
+			(xy 626.11 363.22) (xy 635 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be367078-d6f3-45a8-8c00-946f8019f1ec")
+	)
+	(wire
+		(pts
+			(xy 586.105 427.355) (xy 586.105 424.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef66d41-ca5f-4852-b2fd-2f624374a387")
+	)
+	(wire
+		(pts
+			(xy 697.23 363.22) (xy 706.12 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3cfa59-045d-4b35-a998-45db21cb8604")
+	)
+	(wire
+		(pts
+			(xy 577.215 372.745) (xy 570.865 372.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13c6daf-44b5-4cfe-8f5c-c22bf0736b2b")
+	)
+	(wire
+		(pts
+			(xy 617.22 373.38) (xy 608.33 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5057307-4e1c-483b-885d-26d18a4a75ca")
+	)
+	(wire
+		(pts
+			(xy 697.23 264.16) (xy 688.34 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c544c69d-4aa0-4aee-9fed-1bc8e8fc021b")
+	)
+	(wire
+		(pts
+			(xy 570.865 318.135) (xy 570.865 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c555b16c-ba7f-4e45-9524-1370db81007c")
+	)
+	(wire
+		(pts
+			(xy 608.33 264.16) (xy 599.44 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5abc26a-d163-4e37-af7a-aa67d1fba20a")
+	)
+	(wire
+		(pts
+			(xy 586.105 318.135) (xy 586.105 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c979fc82-a31a-4daf-8113-ab94b8d55770")
+	)
+	(wire
+		(pts
+			(xy 546.1 260.985) (xy 546.1 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1a7cad-6794-47f1-b66e-1238700d8343")
+	)
+	(wire
+		(pts
+			(xy 552.45 260.985) (xy 546.1 260.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca403b68-09e0-48f9-a1bb-2176b868e097")
+	)
+	(wire
+		(pts
+			(xy 570.865 427.355) (xy 570.865 422.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd95887f-9bf1-4ce5-be9f-471cd9d0d976")
+	)
+	(wire
+		(pts
+			(xy 608.33 363.22) (xy 617.22 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce031806-b454-455f-ad85-9abed30931a3")
+	)
+	(wire
+		(pts
+			(xy 626.11 262.89) (xy 626.11 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b3840c-6f52-4669-8ffa-427288eb0202")
+	)
+	(wire
+		(pts
+			(xy 617.22 264.16) (xy 608.33 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4908aa8-bc49-43aa-8b4c-b5df96057c10")
+	)
+	(wire
+		(pts
+			(xy 715.01 254) (xy 715.01 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5651c25-ff1a-42d0-9903-fc80f903ae92")
+	)
+	(wire
+		(pts
+			(xy 617.22 372.11) (xy 617.22 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71eeedb-d3b0-48aa-94d3-a5def4fb71b2")
+	)
+	(wire
+		(pts
+			(xy 552.45 226.695) (xy 546.1 226.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d926b150-4d21-491f-b94d-b6d9d45fc173")
+	)
+	(wire
+		(pts
+			(xy 715.01 373.38) (xy 718.185 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d955c9d7-00c1-4ac5-8ba7-5e0b6242a38b")
+	)
+	(wire
+		(pts
+			(xy 577.215 263.525) (xy 570.865 263.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd1f1ed-c391-4e9b-b8d9-2d3c27c03fe0")
+	)
+	(wire
+		(pts
+			(xy 670.56 262.89) (xy 670.56 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfcc1dc6-a2d8-4a76-a703-aa35f3bc0809")
+	)
+	(wire
+		(pts
+			(xy 570.865 226.695) (xy 570.865 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfddf124-121d-4a9f-b2e3-1c9024769ea4")
+	)
+	(wire
+		(pts
+			(xy 554.99 260.985) (xy 561.34 260.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e021bc1d-44e4-4c82-b23c-1f7227d863c9")
+	)
+	(wire
+		(pts
+			(xy 567.69 306.07) (xy 567.69 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25f97b5-b61f-4581-a327-0b0a63ce5d4e")
+	)
+	(wire
+		(pts
+			(xy 706.12 363.22) (xy 715.01 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3749a37-7651-4e26-a7db-1b0baa7d25fd")
+	)
+	(wire
+		(pts
+			(xy 661.67 373.38) (xy 652.78 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e410ee8a-941a-4eb9-a35e-afc60a3e8c18")
+	)
+	(wire
+		(pts
+			(xy 561.34 251.46) (xy 567.69 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e464599f-417f-4af2-bc83-9dbe2ad6d6c0")
+	)
+	(wire
+		(pts
+			(xy 579.755 337.82) (xy 586.105 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b5d1e7-cc60-45f1-a717-9b4fe34de6e2")
+	)
+	(wire
+		(pts
+			(xy 661.67 372.11) (xy 661.67 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6faf4e5-f9e1-4941-b488-575076246eeb")
+	)
+	(wire
+		(pts
+			(xy 715.01 264.16) (xy 706.12 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e832b3a4-01b9-476f-980a-3f7b3ba6fb92")
+	)
+	(wire
+		(pts
+			(xy 586.105 226.695) (xy 586.105 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c77090-f6e3-418b-8683-50fae8eadf9f")
+	)
+	(wire
+		(pts
+			(xy 567.69 251.46) (xy 570.865 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9dd2a50-c627-4692-bbb7-123bb1928d5c")
+	)
+	(wire
+		(pts
+			(xy 626.11 264.16) (xy 617.22 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec05dfff-441a-4e23-b33f-716425c4f20d")
+	)
+	(wire
+		(pts
+			(xy 590.55 373.38) (xy 590.55 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbdfd09-628f-4039-9ed8-f1d870da515e")
+	)
+	(wire
+		(pts
+			(xy 697.23 373.38) (xy 688.34 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f026b1fe-94c0-4b51-b4bf-6a3a8f08cb9b")
+	)
+	(wire
+		(pts
+			(xy 617.22 254) (xy 617.22 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f44a9c-f70e-40c2-9457-718237bb347b")
+	)
+	(wire
+		(pts
+			(xy 586.105 392.43) (xy 586.105 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f49afa-5674-440d-b0f6-b6c8475bad75")
+	)
+	(wire
+		(pts
+			(xy 715.01 262.89) (xy 715.01 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25c8bce-2c81-495d-a833-79db15074a53")
+	)
+	(wire
+		(pts
+			(xy 643.89 372.11) (xy 643.89 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c3bf65-d5af-42e4-9445-0517c6de72b3")
+	)
+	(wire
+		(pts
+			(xy 679.45 363.22) (xy 688.34 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5dc6f56-d0ca-45aa-92d8-60ecba122519")
+	)
+	(wire
+		(pts
+			(xy 579.755 283.21) (xy 586.105 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5de9ebf-01e5-419e-b666-8a9f29a1b496")
+	)
+	(wire
+		(pts
+			(xy 635 363.22) (xy 643.89 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc6cabb-a712-4d20-972d-46eefe1d00d3")
+	)
+	(wire
+		(pts
+			(xy 561.34 260.985) (xy 561.34 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4abe57-7a24-4517-8cfd-8c3904519822")
+	)
+	(global_label "VDC+_ECG"
+		(shape output)
+		(at 586.105 417.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "547cabde-0ae4-46da-aded-0e97bfab6a1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 596.749 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDC+_ECG"
+		(shape output)
+		(at 718.185 373.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f53ee84-be54-445f-b60b-7e344f7dbc57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 728.829 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDC+_Invertor"
+		(shape output)
+		(at 586.105 308.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87e5b106-9817-47af-adcb-b7be52a74ad3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 600.1809 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDC+_Invertor"
+		(shape output)
+		(at 718.185 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a33189db-2c0c-42c5-bfcb-8afc268b12c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 732.2609 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Sensors_My:YMC15S")
-		(at 579.12 273.05 0)
+		(at 499.11 252.095 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -714,8 +2975,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06b14da7-29ba-4930-992d-55d4663071f8")
-		(property "Reference" "D6"
-			(at 578.866 270.51 0)
+		(property "Reference" "D3"
+			(at 498.856 249.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +2984,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 578.866 271.78 0)
+			(at 498.856 250.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,7 +2992,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_My:YMC15S-500A"
-			(at 579.12 273.05 0)
+			(at 499.11 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -740,7 +3001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 579.12 273.05 0)
+			(at 499.11 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +3010,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 579.12 273.05 0)
+			(at 499.11 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +3030,7 @@
 		(instances
 			(project ""
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -777,7 +3038,7 @@
 	)
 	(symbol
 		(lib_id "Contactor:KILOVAC_EV200")
-		(at 611.505 230.505 0)
+		(at 553.72 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -786,7 +3047,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c906a14-a6c1-4d46-b439-5071c49f9d76")
 		(property "Reference" "D1"
-			(at 611.505 226.06 0)
+			(at 553.72 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,7 +3055,7 @@
 			)
 		)
 		(property "Value" "EV200"
-			(at 611.505 228.6 0)
+			(at 553.72 231.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,7 +3063,7 @@
 			)
 		)
 		(property "Footprint" "Contactor:EV200"
-			(at 611.251 225.933 0)
+			(at 553.466 229.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +3072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 611.251 225.933 0)
+			(at 553.466 229.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -820,7 +3081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 611.251 225.933 0)
+			(at 553.466 229.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,8 +3117,1405 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 652.78 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d204d26-4181-40cf-bcbb-430062d54cbc")
+		(property "Reference" "R8"
+			(at 655.32 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 655.32 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 651.002 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 652.78 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 652.78 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eba05f4a-4613-40ab-b9ae-4c64f01786a5")
+		)
+		(pin "1"
+			(uuid "7b3f13f1-7392-4f3f-97b9-505a1c00d658")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 590.55 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d8ee245-4211-4fc2-8377-f075c595e92b")
+		(property "Reference" "R16"
+			(at 593.09 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 593.09 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 588.772 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 590.55 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 590.55 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39c4e067-d7d2-48c7-a5aa-88797c20bbb9")
+		)
+		(pin "1"
+			(uuid "efd46550-8c73-4830-8bf8-bbef29fb05c8")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 617.22 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13d9a6fc-1913-4d7b-9f3e-a7e032911f1e")
+		(property "Reference" "R19"
+			(at 619.76 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 619.76 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 615.442 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 617.22 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 617.22 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6724c189-c250-491f-a904-d801ac53b0b1")
+		)
+		(pin "1"
+			(uuid "ab0b93a2-5be3-4e4e-b5e1-0b09f3efd805")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 643.89 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1563266a-96d0-40ee-b967-e1a274db85cf")
+		(property "Reference" "R22"
+			(at 646.43 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 646.43 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 642.112 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 643.89 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 643.89 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5906de0-135b-4bfc-b5fa-5aa7da7adaa0")
+		)
+		(pin "1"
+			(uuid "a1dddb25-b5a4-4fdf-89cf-af816ce99f63")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 706.12 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15f3b27f-7fd5-4439-a8f5-b27fc6622260")
+		(property "Reference" "R14"
+			(at 708.66 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 708.66 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 704.342 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 706.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 706.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c93deb7e-0eac-4771-ab80-3d6da5fd1b2a")
+		)
+		(pin "1"
+			(uuid "e2e88320-319b-40a2-be36-ee110b3ec04f")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 706.12 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1667ee68-9d7a-4430-ac8c-2e01a48e1a97")
+		(property "Reference" "R29"
+			(at 708.66 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 708.66 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 704.342 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 706.12 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 706.12 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e74ef05-8ef7-4034-94b4-7afb273bda0f")
+		)
+		(pin "1"
+			(uuid "70974a75-8436-4f68-a834-d38b176a557e")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 608.33 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19b9c948-cfd9-4153-a16f-c531c4dd5208")
+		(property "Reference" "R3"
+			(at 610.87 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 610.87 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 606.552 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 608.33 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 608.33 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e9caffa-8cb3-43a0-a784-a9b4f211a0b3")
+		)
+		(pin "1"
+			(uuid "805669ad-295c-4c29-8859-6047e1513a19")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 579.755 323.215 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e1c9186-3be2-44a5-ada6-734cc9cbc663")
+		(property "Reference" "J8"
+			(at 582.93 323.215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Shunt_1_FeedBack"
+			(at 586.105 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 579.755 323.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 579.755 323.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 579.755 323.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f098b98-60f7-47b4-9968-1c28c8686282")
+		)
+		(pin "2"
+			(uuid "e2373bbb-16c3-4f5b-8a83-94cdd73be83a")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 635 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "284e666d-ba65-4b02-991f-74f949a6e2d6")
+		(property "Reference" "R6"
+			(at 637.54 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 637.54 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 633.222 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 635 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 635 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e02d3865-5902-4d12-a460-202fefb280f9")
+		)
+		(pin "1"
+			(uuid "6c0f2125-c875-4342-9972-46ae7dbe11c5")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 715.01 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "290fa401-8e16-4685-adb5-8a3f84ad4d75")
+		(property "Reference" "R30"
+			(at 717.55 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 717.55 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 713.232 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 715.01 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 715.01 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d0ac75d-f5f4-4910-8d5d-8cb496f16876")
+		)
+		(pin "1"
+			(uuid "d4af3bd1-5d11-4592-b8d3-264dab62167b")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 715.01 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b44a384-f17b-48ca-bce2-3cd29d3530c6")
+		(property "Reference" "R15"
+			(at 717.55 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 717.55 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 713.232 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 715.01 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 715.01 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "989a3a6e-e19e-4fdd-a593-07fbffd7ee5f")
+		)
+		(pin "1"
+			(uuid "9a765107-6909-463d-b1fa-0c8c21a82d5b")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 626.11 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35423e77-053b-4e76-80e3-6e37b67b9bae")
+		(property "Reference" "R5"
+			(at 628.65 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 628.65 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 624.332 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 626.11 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 626.11 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5360a047-89c1-4b58-9620-042812966014")
+		)
+		(pin "1"
+			(uuid "b2451bda-70ed-4bb0-b555-a23b2114332e")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 554.99 266.065 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e07047-19f7-4976-b299-b879061492fb")
+		(property "Reference" "J6"
+			(at 558.165 266.065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Main_Contactor_FeedBack"
+			(at 563.245 269.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 554.99 266.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 266.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 554.99 266.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e672bb-79d1-4042-a4fe-39aed1de151a")
+		)
+		(pin "2"
+			(uuid "5a7966ed-bea5-4fbc-8dea-e8b66be7eea4")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 697.23 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bb8a22b-c68b-4e43-88a7-bdb66d4e375d")
+		(property "Reference" "R13"
+			(at 699.77 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 699.77 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 695.452 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 697.23 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 697.23 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d2b8ebe-4b16-4ea6-965f-2ced6bc57c46")
+		)
+		(pin "1"
+			(uuid "51707980-626d-4bcc-9a70-55cdb98a5b1b")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 608.33 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ffe2139-d8ee-433a-a2e2-5d8e0ddeb150")
+		(property "Reference" "R18"
+			(at 610.87 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 610.87 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 606.552 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 608.33 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 608.33 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7719d96e-8a95-4292-9053-b3d1cc8a6e5d")
+		)
+		(pin "1"
+			(uuid "0e2d9607-131e-4946-9411-db88bf6661ae")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 661.67 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a355e1a-f88b-473c-b097-f6d1c25ffbeb")
+		(property "Reference" "R9"
+			(at 664.21 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 664.21 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 659.892 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 661.67 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 661.67 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6806407-0d1a-44a0-b250-8df7e9389682")
+		)
+		(pin "1"
+			(uuid "3368a68b-0eb4-449b-92f4-da0023c3fb75")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 579.755 432.435 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53840fe4-e9f1-46fc-9ff0-f7cf7cffac5c")
+		(property "Reference" "J10"
+			(at 582.93 432.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Shunt_2_FeedBack"
+			(at 586.105 435.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 579.755 432.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 579.755 432.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 579.755 432.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfa2b2ac-bee4-4761-9ecd-9687bc36f1b9")
+		)
+		(pin "2"
+			(uuid "fae1f2a8-044e-41b5-abcf-f3dd90df5ae6")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 626.11 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c6e750-7ce9-4cc9-846e-eddc36fbacee")
+		(property "Reference" "R20"
+			(at 628.65 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 628.65 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 624.332 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 626.11 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 626.11 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db2c76a7-ffd7-46f3-99ec-b544d25b9ea7")
+		)
+		(pin "1"
+			(uuid "c3b2dc00-9e6a-4782-9f8c-01cde760ef1e")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 635 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "567c5f88-5ad7-45b0-b5a9-d1db07602cbf")
+		(property "Reference" "R21"
+			(at 637.54 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 637.54 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 633.222 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 635 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 635 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e42043bf-bfe1-43b8-b252-36b69fc2fed2")
+		)
+		(pin "1"
+			(uuid "8c6f4b70-ad54-417f-87c8-ab1f74cea99a")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 643.89 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5704a1d3-c731-4f49-91c8-d23ba9d7422e")
+		(property "Reference" "R7"
+			(at 646.43 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 646.43 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 642.112 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 643.89 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 643.89 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04a68377-beba-4fbc-b4a4-c90bb31b58a3")
+		)
+		(pin "1"
+			(uuid "011bb671-f603-4b3e-86ff-d5479eff886b")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Contactor:KILOVAC_EV200")
-		(at 642.62 264.16 0)
+		(at 578.485 290.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -865,8 +4523,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b57b5d7-d98e-43fe-8bdb-20c89ca3c0f2")
-		(property "Reference" "D3"
-			(at 642.62 259.715 0)
+		(property "Reference" "D4"
+			(at 578.485 286.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +4532,7 @@
 			)
 		)
 		(property "Value" "EV200"
-			(at 642.62 262.255 0)
+			(at 578.485 288.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +4540,7 @@
 			)
 		)
 		(property "Footprint" "Contactor:EV200"
-			(at 642.366 259.588 0)
+			(at 578.231 286.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +4549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 642.366 259.588 0)
+			(at 578.231 286.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +4558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 642.366 259.588 0)
+			(at 578.231 286.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +4587,843 @@
 		(instances
 			(project "PDU_Adapter"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
-					(reference "D3")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 577.215 221.615 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68662883-270d-427c-9ae8-0fe9f76e1ddc")
+		(property "Reference" "J2"
+			(at 574.04 221.615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Precharge_1_Coil"
+			(at 571.5 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 577.215 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 577.215 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 577.215 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da07b07b-e5d2-4172-90f3-47443c628abb")
+		)
+		(pin "2"
+			(uuid "a42175be-0000-424d-b144-886c3c94edd3")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 599.44 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6879fd7c-2a60-4cba-9fed-603774856106")
+		(property "Reference" "R17"
+			(at 601.98 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 601.98 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 597.662 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 599.44 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 599.44 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e788ed6-0f7c-442d-9d62-5c0fb03a13d7")
+		)
+		(pin "1"
+			(uuid "b247a164-c125-48aa-9804-09c53ab0ba98")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 652.78 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c571eb1-7330-4658-9738-1e4b476e8234")
+		(property "Reference" "R23"
+			(at 655.32 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 655.32 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 651.002 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 652.78 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 652.78 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "083ca92b-8ca3-497c-943d-af07f8fd1358")
+		)
+		(pin "1"
+			(uuid "ad074750-a0c7-48ac-b1d0-07745562835f")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 579.755 268.605 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70aca887-7670-49b5-8294-f2417d3aaace")
+		(property "Reference" "J7"
+			(at 582.93 268.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Precharge_1_FeedBack"
+			(at 588.01 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 579.755 268.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 579.755 268.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 579.755 268.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aa9a682-44b2-40c4-bfaf-e1bb64768cda")
+		)
+		(pin "2"
+			(uuid "fbddc7ba-b2d7-42f0-b6a6-b1605b8f031f")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 688.34 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75700e1b-535d-451a-a584-ba90f42f7c8a")
+		(property "Reference" "R12"
+			(at 690.88 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 690.88 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 686.562 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 688.34 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 688.34 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e051e1de-2388-4345-9676-71eb6785a51a")
+		)
+		(pin "1"
+			(uuid "30d0644c-f7a6-4ca1-adad-9b8ab7152687")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 552.45 221.615 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75975689-c9cc-41b1-813c-8e981d37fb2a")
+		(property "Reference" "J1"
+			(at 549.275 221.615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Main_Contactor_Coil"
+			(at 546.1 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 552.45 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 552.45 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 552.45 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca6f2b9c-b2c4-4134-aec8-43b0076de4bd")
+		)
+		(pin "2"
+			(uuid "a1404af7-bdd8-452b-8007-8528efa72896")
+		)
+		(instances
+			(project ""
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 617.22 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "798718f1-4acf-4d91-a8f0-6182a5bcd869")
+		(property "Reference" "R4"
+			(at 619.76 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 619.76 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 615.442 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 617.22 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 617.22 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7b8a996-58e7-43a9-9b09-a788a387cf99")
+		)
+		(pin "1"
+			(uuid "e716f957-d8a7-46d7-be1a-3a8a5a2dfcae")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 679.45 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a682d7b-92ce-41ab-b348-284d903a2a02")
+		(property "Reference" "R26"
+			(at 681.99 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 681.99 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 677.672 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 679.45 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 679.45 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4fee7285-9654-4b97-b480-43d23c88d4d5")
+		)
+		(pin "1"
+			(uuid "adae82df-fd50-423b-b11b-9f246846e4b5")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 670.56 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dd96d38-8eac-4166-a033-dbca11232022")
+		(property "Reference" "R10"
+			(at 673.1 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 673.1 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 668.782 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 670.56 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 670.56 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "625d6e4d-f558-45d6-a2e4-a79cab0c47b1")
+		)
+		(pin "1"
+			(uuid "272cbf1e-cbb6-4d3f-9f20-5a18be2bbfdf")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 577.215 332.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c8e3f59-abb8-4289-9909-f8953cf8562a")
+		(property "Reference" "J4"
+			(at 574.04 332.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Precharge_2_Coil"
+			(at 572.135 329.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 577.215 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 577.215 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 577.215 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff12fe4d-cbd5-4054-b13a-fb114614c7c1")
+		)
+		(pin "2"
+			(uuid "ccfb76c8-00a9-45e8-b3da-e9774a0e32e8")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 697.23 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a978897a-2f70-4c49-b2fb-86482261f08a")
+		(property "Reference" "R28"
+			(at 699.77 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 699.77 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 695.452 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 697.23 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 697.23 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e8269d6-7a14-41d9-bf29-e9d12d12d229")
+		)
+		(pin "1"
+			(uuid "7f858704-b3a5-4534-8076-605a022d7eb2")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 688.34 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0d71a7f-8f34-4ecc-b146-ce6378814e6b")
+		(property "Reference" "R27"
+			(at 690.88 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 690.88 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 686.562 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 688.34 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 688.34 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "345c1711-0fe0-454b-a02d-47e434acb979")
+		)
+		(pin "1"
+			(uuid "001601f0-aa8b-4ce5-b041-b4991975e22d")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -937,7 +5431,7 @@
 	)
 	(symbol
 		(lib_id "Contactor:KILOVAC_EV200")
-		(at 611.505 263.525 0)
+		(at 578.485 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -946,7 +5440,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4a021e0-87a7-4d5e-8d92-d774b18f03e4")
 		(property "Reference" "D2"
-			(at 611.505 259.08 0)
+			(at 578.485 231.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +5448,7 @@
 			)
 		)
 		(property "Value" "EV200"
-			(at 611.505 261.62 0)
+			(at 578.485 234.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +5456,7 @@
 			)
 		)
 		(property "Footprint" "Contactor:EV200"
-			(at 611.251 258.953 0)
+			(at 578.231 231.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +5465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 611.251 258.953 0)
+			(at 578.231 231.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +5474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 611.251 258.953 0)
+			(at 578.231 231.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,8 +5510,426 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 590.55 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8ac6ee0-2973-46ba-b7c2-551c330c15b6")
+		(property "Reference" "R1"
+			(at 593.09 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 593.09 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 588.772 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 590.55 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 590.55 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "429f674c-452a-4429-b412-b8c10a206354")
+		)
+		(pin "1"
+			(uuid "e5ce9f11-2d63-4026-b512-9991fe707bd9")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 599.44 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb731e29-6f5c-468d-a3d7-6db16ee3d2ec")
+		(property "Reference" "R2"
+			(at 601.98 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 601.98 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 597.662 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 599.44 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 599.44 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e3b1c89-0459-4c1a-b598-e1a41f26d16b")
+		)
+		(pin "1"
+			(uuid "f4ff6c3e-ee13-492b-85fa-22df3bf33616")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 670.56 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd85cce9-c9c1-4dc8-87f3-12fd6f85051e")
+		(property "Reference" "R25"
+			(at 673.1 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 673.1 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 668.782 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 670.56 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 670.56 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ea0a0f8-0eee-41fd-8b0d-a1477f83ebaf")
+		)
+		(pin "1"
+			(uuid "450c870c-ce59-4549-aa34-1e73c0c7d1b8")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 579.755 377.825 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1e99d2e-7c65-420a-a8bb-cd21777c7ed5")
+		(property "Reference" "J9"
+			(at 582.93 377.825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Precharge_2_FeedBack"
+			(at 587.375 381 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 579.755 377.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 579.755 377.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 579.755 377.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdfbe719-53c1-482c-b12c-c2f090048bd3")
+		)
+		(pin "2"
+			(uuid "8fdd0d25-9fc1-4dd3-8d5c-c2d8eb79e749")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 577.215 278.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5ed3efa-a086-4671-940d-54550554b2fd")
+		(property "Reference" "J3"
+			(at 574.04 278.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Shunt_1_Coil"
+			(at 573.405 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 577.215 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 577.215 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 577.215 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b621680d-9762-4835-9361-f5439f040704")
+		)
+		(pin "2"
+			(uuid "1370a71d-dac2-477f-8715-4dfec91f07b5")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 274.32 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6c297f8-d11d-4bec-9953-5818b060fe8b")
+		(property "Reference" "J11"
+			(at 276.86 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 276.86 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
+			(at 274.32 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 274.32 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aed70fdc-3ee0-4803-bc51-969a4c835dbd")
+		)
+		(pin "2"
+			(uuid "95f78cf0-4b7e-40ef-8fae-9f423dc0ba26")
+		)
+		(instances
+			(project ""
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Contactor:KILOVAC_EV200")
-		(at 578.485 227.965 0)
+		(at 578.485 400.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1025,8 +5937,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8ec3bc-0e49-4083-b525-4c5abb4d3c8f")
-		(property "Reference" "D5"
-			(at 578.485 223.52 0)
+		(property "Reference" "D6"
+			(at 578.485 395.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +5946,7 @@
 			)
 		)
 		(property "Value" "EV200"
-			(at 578.485 226.06 0)
+			(at 578.485 398.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +5954,7 @@
 			)
 		)
 		(property "Footprint" "Contactor:EV200"
-			(at 578.231 223.393 0)
+			(at 578.231 395.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +5963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 578.231 223.393 0)
+			(at 578.231 395.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +5972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 578.231 223.393 0)
+			(at 578.231 395.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +6001,7 @@
 		(instances
 			(project "PDU_Adapter"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -1097,7 +6009,7 @@
 	)
 	(symbol
 		(lib_id "Contactor:KILOVAC_EV200")
-		(at 642.62 231.775 0)
+		(at 578.485 345.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1105,8 +6017,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db4f9b39-2f84-4ffd-a308-fa63c9847396")
-		(property "Reference" "D4"
-			(at 642.62 227.33 0)
+		(property "Reference" "D5"
+			(at 578.485 340.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +6026,7 @@
 			)
 		)
 		(property "Value" "EV200"
-			(at 642.62 229.87 0)
+			(at 578.485 343.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +6034,7 @@
 			)
 		)
 		(property "Footprint" "Contactor:EV200"
-			(at 642.366 227.203 0)
+			(at 578.231 340.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +6043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 642.366 227.203 0)
+			(at 578.231 340.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +6052,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 642.366 227.203 0)
+			(at 578.231 340.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,42 +6081,41 @@
 		(instances
 			(project "PDU_Adapter"
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 679.45 210.82 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 577.215 387.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f475ab9c-1cd8-4921-a391-8658e5e7db51")
-		(property "Reference" "R1"
-			(at 681.99 209.55 0)
+		(uuid "f133e80a-454d-4d49-8270-04233188b0ce")
+		(property "Reference" "J5"
+			(at 574.04 387.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 681.99 212.09 0)
+		(property "Value" "Sunt_2_Coil"
+			(at 574.04 384.175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 677.672 210.82 90)
+		(property "Footprint" "Molex_My:Mini-Fit_01x02_Vertical"
+			(at 577.215 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +6124,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 679.45 210.82 0)
+			(at 577.215 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 577.215 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6449945d-194c-4e22-819c-d285fbf22d5e")
+		)
+		(pin "2"
+			(uuid "8b99eb11-8a13-407b-b023-18ab567e9565")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 679.45 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f475ab9c-1cd8-4921-a391-8658e5e7db51")
+		(property "Reference" "R11"
+			(at 681.99 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 681.99 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 677.672 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 679.45 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +6203,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 679.45 210.82 0)
+			(at 679.45 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +6220,77 @@
 		(instances
 			(project ""
 				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
-					(reference "R1")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 661.67 368.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f69662d2-9970-4c4f-a2f0-76438b96bb77")
+		(property "Reference" "R24"
+			(at 664.21 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 664.21 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P66.04mm"
+			(at 659.892 368.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 661.67 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 661.67 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6cc53ca-f6cd-4a34-a43e-7d28e0cc99e2")
+		)
+		(pin "1"
+			(uuid "668fa5a1-0388-47aa-a39d-adbf34183c88")
+		)
+		(instances
+			(project "PDU_Adapter"
+				(path "/7b040528-7065-4d6b-8722-075d9f593d01"
+					(reference "R24")
 					(unit 1)
 				)
 			)
